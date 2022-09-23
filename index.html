@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator | UtProjects</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>Qr Code Generator</h3>
+
+        <div class="box">
+
+            <select name="" id="qrSize" class="width20">
+                <option value="100x100" selected>Select Size</option>
+                <option value="150x150">150x150</option>
+                <option value="200x200">200x200</option>
+                <option value="250x250">250x250</option>
+                <option value="300x300">300x300</option>
+                <option value="350x350">350x350</option>
+            </select>
+
+        </div>
+
+        <div class="box">
+            <input id="qrText" class="width18" placeholder="Enter your Text">
+        </div>
+
+        <div class="box">
+            <button type="submit" onclick="createQr();" class="width20">Generate QR</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

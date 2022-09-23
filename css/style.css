@@ -1,0 +1,25 @@
+* {
+    padding: 8px 15px;
+}
+
+
+.box {
+
+    margin-top: 7px;
+    display: flex;
+    place-content: center;
+    /* border: 1px solid red; */
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.width20 {
+    width: 20em;
+}
+
+.width18 {
+    width: 17.5em;
+}
